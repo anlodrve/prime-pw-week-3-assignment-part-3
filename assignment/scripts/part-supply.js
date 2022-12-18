@@ -21,8 +21,8 @@ console.log(supplyChanges[1]);
 // 4. The last item was added by mistake. Remove it from the 'supplyChanges' 
 //    array & console.log the value removed.
 console.log('4. Removed item:');
-
-console.log(supplyChanges.pop());
+let removedSupply = supplyChanges.pop()
+console.log(removedSupply);
 
 
 
